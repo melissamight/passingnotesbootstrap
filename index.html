@@ -8,32 +8,68 @@
         <!--Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
+
+        <!--Additional CSS-->
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/styles.css"/>
+
+        <img src= "img/Passing Notes.png" class="img-fluid" width: 100% alt="Passing Notes Logo"/>
         <title>Passing Notes from the Pandemic</title>
     </head>
 
     <body>
-        <header>
-            <div>
-                <h1>Passing Notes from the Pandemic</h1>
-                <h2>a docuseries about musicians during the pandemic</h2>
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                       
+                        <h1>from the Pandemic</h1>
+                        <h2>a docuseries about musicians during the pandemic</h2>
+                    </div>
+
+                </div>
+
             </div>
         </header>
 
+        <nav class="navbar navbar-expand-sm navbar-dark bg-secondary sticky-top">
+            <div class="container">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#passingNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="passingNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="artists.html">Artists</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Pass a Note</a></li>
+                        <li class="nav-item"><a class="nav-link" href="store.html">Store</a></li>
+                    </ul>
+                </div>
+            </div>  
+        </nav>
 
-        <div>
-            <h2>Artist Spotlight</h2>
-            <h3>Name of Artist</h3>
-            <p> bio of artist</p>
-
-
+        <div class="container">
+            <div class="row">
+                <div clas="col">
+                    <h2>Artist Spotlight</h2>
+                    <h3>Name of Artist</h3>
+                    <p> bio of artist</p>
+                </div>
+            </div>
         </div>
 
         <footer>
-             <div>
-                 <h5>Social</h5>
-                    <a href="http://instagram.com/"> Instagram</a>
-                    <a href="http://facebook.com">Facebook</a>
-                    <a href="http://youtube.com">YouTube</a>
+             <div class="container">
+                 <div class="row">
+                     <div class="col">
+                        <h5>Social</h5>
+                            <a href="http://instagram.com/"> Instagram</a>
+                            <a href="http://facebook.com">Facebook</a>
+                            <a href="http://youtube.com">YouTube</a>
+                        </div>
+                    </div>         
              </div>
         
         </footer>
